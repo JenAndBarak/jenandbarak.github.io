@@ -2,13 +2,19 @@
 <html>
 <head>
   <title>Picture Gallery</title>
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
 
-  <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
+
+  <!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<!--nanogallery-->
+  <link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
+
 	<!-- our stylesheet -->
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
@@ -32,6 +38,39 @@
 	    </ul>
 	  </div>
 	</nav>
-  <h1>Pics</h1>
+  <div class="container">
+  	<h1>Pics</h1>
+  	<div id="jen-barak-photos" data-nanogallery2='{
+		    "itemsBaseURL": "assets/",
+		    "thumbnailWidth": "auto",
+		    "thumbnailBorderVertical": 0,
+		    "thumbnailBorderHorizontal": 0,
+		    "thumbnailLabel": {
+		      "display": false
+		    },
+		    "thumbnailHoverEffect2": "imageScaleIn80",
+		    "thumbnailAlignment": "center"
+		  }'>
+		  <a href="happy.jpg" data-ngthumb="happy.jpg" data-ngdesc="">Our engagement</a>
+		  <a href="foreheads.jpg" data-ngthumb="foreheads.jpg" data-ngdesc="words here">MQ production</a>
+		  <a href="hike.jpg" data-ngthumb="hike.jpg" data-ngdesc="">hiking</a>
+		  <a href="snow.jpg" data-ngthumb="snow.jpg" data-ngdesc="">In CO snow</a>
+		  <a href="smooth-sailing.jpg" data-ngthumb="smooth-sailing.jpg" data-ngdesc="">Austin boatride</a>
+		  <a href="log-love.jpg" data-ngthumb="log-love.jpg" data-ngdesc="">MQ camping hike</a>
+		  <a href="long-shadow.jpg" data-ngthumb="long-shadow.jpg" data-ngdesc="">Grand Canyon</a>
+		  <a href="IMG_1911.jpg" data-ngthumb="IMG_1911.jpg" data-ngdesc="">CO park at passover</a>
+		  <a href="Barak-and-Jen-2016.jpg" data-ngthumb="Barak-and-Jen-2016.jpg" data-ngdesc="">Socks pic</a>
+		  <a href="IMG_0062.jpg" data-ngthumb="IMG_0062.jpg" data-ngdesc="">Post-marathon</a>
+		  <a href="IMG_0307.jpg" data-ngthumb="IMG_0307.jpg" data-ngdesc="">He's a nose eater</a>
+		  <a href="IMG_1343.jpg" data-ngthumb="IMG_1343.jpg" data-ngdesc="">Lights at the Mormon temple</a>
+		  <a href="IMG_1716.jpg" data-ngthumb="IMG_1716.jpg" data-ngdesc="">Hiking 2</a>
+		  <a href="IMG_1905.jpg" data-ngthumb="IMG_1905.jpg" data-ngdesc="">CO park again</a>
+		  <a href="IMG_3538.jpg" data-ngthumb="IMG_3538.jpg" data-ngdesc="">Waterfall hike</a>
+		  <a href="no-matter-where.jpg" data-ngthumb="no-matter-where.jpg" data-ngdesc="">Four Corners</a>
+		  <a href="see-things-differently.jpg" data-ngthumb="see-things-differently.jpg" data-ngdesc="">Coca Cola (TM)</a>
+		  <a href="walk-in-the-woods.jpg" data-ngthumb="walk-in-the-woods.jpg" data-ngdesc="">MQ camping</a>
+		</div>
+  </div>
+  
 </body>
 </html>
