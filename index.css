@@ -14,7 +14,7 @@ body, html {
 
 .jumbotron {
   color: white;
-  background-image: url("assets/log-love-2.jpg");
+  background-image: url("assets/forest-pine-trees.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,5 +38,16 @@ body, html {
 #title {
 	margin-top: -50%;
 	position: center;
-	background-color
+}
+
+.title-main {
+  font-family: 'Parisienne', cursive;
+}
+.sub-title {
+  font-family: 'EB Garamond', serif;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
