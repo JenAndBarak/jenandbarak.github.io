@@ -3,15 +3,6 @@ body, html {
   margin: 0;
 }
 
-/*.bgimage {
-  background-image: url("assets/log-love-2.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-*/
-
 .page-content {
   position: relative;
   min-height: 100vh;
@@ -19,11 +10,22 @@ body, html {
 
 .jumbotron {
   color: white;
-  background-image: url("assets/forest-pine-trees.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+}
+
+.jumbotron-main {
+  background-image: url("assets/DSC_0098.jpg");
+}
+
+.jumbotron-our-story {
+  background-image: url("assets/DSC_0100.jpg");
+}
+
+.jumbotron-details {
+  background-image: url("assets/DSC_0115.jpg");
 }
 
 .jumbotron h1 {
@@ -46,15 +48,16 @@ body, html {
 }
 
 .title-main {
-  font-family: 'Parisienne', cursive;
+  font-family: 'Parisienne', sans-serif;
 }
+
 .sub-title {
   font-family: 'EB Garamond', serif;
   text-shadow:
 		2px 2px #333;
 }
 
-h1, h3, p {
+h1, h2, h3, h4, p {
   font-family: 'EB Garamond', serif;
 }
 
@@ -62,9 +65,32 @@ p {
   font-size: 14pt;
 }
 
+.details-div h2, .details-div h3, .details-div p{
+	text-align: center;
+}
+
+.details-div ul {
+	text-align: center;
+	list-style: none;
+}
+
+.details-div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-width-image {
+	margin-top: 50px;
+	margin-bottom: 70px;
+	width: 100%;
+}
+
 .footer {
-  position: absolute;
-  bottom: 0;
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
   width: 100%;
   background-color: #f5f5f5;
+  text-align: center;
 }
