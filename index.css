@@ -25,7 +25,9 @@ body, html {
 }
 
 .jumbotron-details {
-  background-image: url("https://drive.google.com/uc?id=1CeXLCqxdu8V0QtD-uMqVurrh3IpUzCl7");
+  /*background-image: url("https://drive.google.com/uc?id=1CeXLCqxdu8V0QtD-uMqVurrh3IpUzCl7");*/
+  /*background-image: url("https://drive.google.com/uc?id=13EZa7KrXSaIxvPT-SEOt3-WPR6iWOiH1");*/
+  background-image: url("assets/barak-eating-snow-min.jpg")
 }
 
 .jumbotron h1 {
