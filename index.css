@@ -17,15 +17,16 @@ body, html {
 }
 
 .jumbotron-main {
-  background-image: url("https://drive.google.com/uc?id=1m_QRAyISis0ZMNYCS-kjTZWcU7ieuS5n");
+  /*background-image: url("https://drive.google.com/uc?id=1m_QRAyISis0ZMNYCS-kjTZWcU7ieuS5n");*/
+  background-image: url("assets/main-page-min.jpg");
 }
 
 .jumbotron-our-story {
-  background-image: url("https://drive.google.com/uc?id=1vb_ToWIWHAp7NOxBLJBi3Why1xm94Ew7");
+  /*background-image: url("https://drive.google.com/uc?id=1vb_ToWIWHAp7NOxBLJBi3Why1xm94Ew7");*/
+  background-image: url("assets/holding-barak-min.jpg");
 }
 
 .jumbotron-details {
-  /*background-image: url("https://drive.google.com/uc?id=1CeXLCqxdu8V0QtD-uMqVurrh3IpUzCl7");*/
   /*background-image: url("https://drive.google.com/uc?id=13EZa7KrXSaIxvPT-SEOt3-WPR6iWOiH1");*/
   background-image: url("assets/barak-eating-snow-min.jpg")
 }
