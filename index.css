@@ -70,6 +70,8 @@ p {
 
 .details-div h2, .details-div h3, .details-div p{
 	text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .details-div ul {
